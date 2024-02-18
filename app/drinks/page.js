@@ -1,3 +1,4 @@
+import DrinkList from '@/components/DrinkList'
 import React from 'react'
 import { resolve } from 'styled-jsx/css'
 
@@ -16,10 +17,9 @@ const fetchDrinks = async ()=> {
 
 const DrinksPage = async () => {
   const data = await fetchDrinks()
-  console.log(data)
   return (
     <div>
-      <h1 className='text-7xl'>Drink Page</h1>
+      <DrinkList drinks={data.drinks}/>
     </div>
   )
 }

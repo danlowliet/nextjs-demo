@@ -2,7 +2,7 @@
 
 import React from 'react'
 
-const error = () => {
+const error = (error) => {
   return (
     <div>
       {error.error.message}
