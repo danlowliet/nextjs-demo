@@ -1,10 +1,12 @@
+import { deleteTask } from '@/utils/actions'
 import React from 'react'
 
-const DeleteForm = () => {
+const DeleteForm = ({id}) => {
   return (
-    <div>
-      
-    </div>
+    <form action={deleteTask}>
+      <input type='hidden' name='id' value={id} />
+      <button className='btn btn-xs btn-error'>delete</button>
+    </form>
   )
 }
 
