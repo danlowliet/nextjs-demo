@@ -1,11 +1,14 @@
+import TaskForm from '@/components/TaskForm'
+import TaskList from '@/components/TaskList'
 import React from 'react'
 
-const TaskPage = () => {
+const TasksPage = () => {
   return (
-    <div>
-      <h1 className='text-7xl'>Task Page</h1>
+    <div className='mx-w-lg'>
+      <TaskForm/>
+      <TaskList/>
     </div>
   )
 }
 
-export default TaskPage
+export default TasksPage

@@ -7,7 +7,6 @@ const links = [
     { href: 'contact', label: 'contact'},
     { href: 'drinks', label: 'drinks'},
     { href: 'prisma-example', label: 'prisma-example'},
-    { href: 'query', label: 'react-query'},
     { href: 'tasks', label: 'tasks'}
 ]
 

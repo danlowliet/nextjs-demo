@@ -1,11 +1,11 @@
 import React from 'react'
 
-const AuthPage = () => {
+const DeleteForm = () => {
   return (
     <div>
-      Auth
+      
     </div>
   )
 }
 
-export default AuthPage
+export default DeleteForm
